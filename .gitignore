@@ -1,0 +1,41 @@
+# ── Sensitive / private files ──────────────────────────────────────────────────
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+secrets/
+keys/
+
+# Project-specific private docs
+AI_Viva_Prep_Bot_Copilot_Prompt.md
+ai-viva-prep-bot/code_explainer.md
+code_explainer.md
+
+# ── Python ─────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.db
+*.sqlite3
+ai-viva-prep-bot/backend/uploads/
+
+# ── Node / Next.js ─────────────────────────────────────────────────────────────
+node_modules/
+/.next/
+/out/
+/build
+*.tsbuildinfo
+
+# ── Misc ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

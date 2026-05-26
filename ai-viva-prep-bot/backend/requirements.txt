@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+requests
+python-multipart
+PyMuPDF
+python-docx
+reportlab
+cryptography
+pydantic[email]
